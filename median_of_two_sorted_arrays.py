@@ -44,7 +44,7 @@ def find_median_sorted_arrays(a, b):
             i_max = i - 1
         else:  # 达到要求，并且将边界条件列出来单独考虑
             if i == 0:
-                max_left = b[j - 1];
+                max_left = b[j - 1]
             elif j == 0:
                 max_left = a[i - 1]
             else:
